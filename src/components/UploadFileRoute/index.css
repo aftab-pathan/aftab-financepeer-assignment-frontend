@@ -1,28 +1,48 @@
 /* Write your CSS here */
 .add-file-container {
-  background-color: #ffffff;
+  background-color: #000000;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  width: 90%;
-}
-@media (min-width: 768px) {
-  .add-file-container {
-    width: 70%;
-  }
-}
-.add-file-form {
   width: 100%;
+}
+
+.add-file-form {
+  width: 90%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: grey;
+  background-color: #c7c9c9;
+  padding: 10px;
+  border-radius: 10px;
+  height: 80px;
+}
+@media (min-width: 768px) {
+  .add-file-form {
+    width: 70%;
+  }
+}
+.label {
+  font-size: 16px;
+  font-weight: 700;
+  color: #151a19;
+  width: 150px;
 }
 .input {
   width: 100%;
+  font-size: 20px;
+  font-weight: 700;
+  color: #151a19;
 }
 .submit-btn {
   background-color: blue;
+  font-size: 20px;
+  font-weight: 700;
+  color: #151a19;
+  border: none;
+  border-radius: 5px;
+  width: 150px;
+  height: 30px;
 }

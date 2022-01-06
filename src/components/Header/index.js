@@ -1,6 +1,6 @@
 import {Link, withRouter} from 'react-router-dom'
 import Cookies from 'js-cookie'
-import {AiOutlineMail} from 'react-icons/ai'
+import {AiOutlineUpload, MdOutlineLightMode} from 'react-icons/ai'
 import {BsHouseDoor} from 'react-icons/bs'
 import {FiLogOut} from 'react-icons/fi'
 import './index.css'
@@ -31,7 +31,7 @@ const Header = props => {
 
           <Link to="/posts/add">
             <button type="button" className="mobile-menu-btn">
-              <AiOutlineMail className="mobile-menu-logo" />
+              <AiOutlineUpload className="mobile-menu-logo" />
             </button>
           </Link>
 
@@ -56,7 +56,7 @@ const Header = props => {
         <div className="large-nav-menu">
           <Link to="/">
             <button type="button" className="large-nav-menu-btn">
-              All-Post
+              Feed
             </button>
           </Link>
           <Link to="/posts/add">

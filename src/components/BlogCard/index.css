@@ -1,0 +1,27 @@
+/* Write your CSS here */
+.blog-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://scontent.famd5-2.fna.fbcdn.net/v/t1.6435-9/s960x960/170843433_2368256759985337_8585497368161035930_n.png?_nc_cat=106&ccb=1-5&_nc_sid=e3f864&_nc_ohc=izG14yaVp_AAX_gveR9&_nc_ht=scontent.famd5-2.fna&oh=00_AT95Rm3O1rd3AeqleMqs14twhICk16YnEPk3GVUnVQBh8A&oe=61FC586B');
+  border-radius: 15px;
+  background-size: cover;
+  margin: 20px;
+  padding: 25px;
+  box-shadow: 0 4px 8px 0 #494d4d, 0 6px 20px 0 #494d4d;
+}
+.blog-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #151a19;
+  width: 100%;
+  text-align: center;
+}
+.blog-body {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  color: #434a48;
+  width: 100%;
+}
