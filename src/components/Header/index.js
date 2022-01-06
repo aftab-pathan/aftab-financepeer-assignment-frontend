@@ -16,7 +16,7 @@ const Header = props => {
       <div className="mobile-navbar">
         <Link to="/">
           <img
-            src="https://assets.ccbp.in/frontend/react-js/logo-img.png"
+            src="https://d18gf9zcxp8qg0.cloudfront.net/newWebsite/Financepeer_new_logo.png"
             className="mobile-logo"
             alt="website logo"
           />
@@ -29,7 +29,7 @@ const Header = props => {
             </button>
           </Link>
 
-          <Link to="/jobs">
+          <Link to="/posts/add">
             <button type="button" className="mobile-menu-btn">
               <AiOutlineMail className="mobile-menu-logo" />
             </button>
@@ -48,7 +48,7 @@ const Header = props => {
       <div className="large-navbar">
         <Link to="/">
           <img
-            src="https://assets.ccbp.in/frontend/react-js/logo-img.png"
+            src="https://d18gf9zcxp8qg0.cloudfront.net/newWebsite/Financepeer_new_logo.png"
             className="mobile-logo"
             alt="website logo"
           />
@@ -59,7 +59,7 @@ const Header = props => {
               All-Post
             </button>
           </Link>
-          <Link to="/jobs">
+          <Link to="/posts/add">
             <button type="button" className="large-nav-menu-btn">
               Create-Post
             </button>

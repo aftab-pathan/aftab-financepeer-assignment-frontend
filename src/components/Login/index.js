@@ -38,10 +38,11 @@ class Login extends Component {
     const option = {
       method: 'POST',
       body: JSON.stringify(userData),
+      headers: {
+        'Content-Type': 'application/json',
+      },
     }
-    console.log(option)
     const response = await fetch(url, option)
-    console.log(response)
 
     const data = await response.json()
     if (response.ok === true) {
@@ -61,7 +62,7 @@ class Login extends Component {
       <div className="bg-login-container">
         <div className="login-card">
           <img
-            src="https://drive.google.com/file/d/1VPFQJd0546x8f4GGRKLUDbwDglacAF1x/view?usp=sharing"
+            src="https://d18gf9zcxp8qg0.cloudfront.net/newWebsite/Financepeer_new_logo.png"
             alt="website logo"
             className="login-logo"
           />
