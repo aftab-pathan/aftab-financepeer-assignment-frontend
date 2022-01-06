@@ -99,6 +99,8 @@ class Home extends Component {
 
   renderPostCard = () => {
     const {postData} = this.state
+    // uploade file is not work as per acpectation so that i just hardcore some file value and use inside it
+    //  but this get api method is working without any error but there is no data inside database so that ..
     return (
       <>
         <ul className="similar-post-list-container">
